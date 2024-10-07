@@ -6,7 +6,7 @@ Examples of Automation with Serenity BDD Web
 
 This project was created in:
 
-- Windows 11
+- Windows 10
 - IntelliJ IDEA 2024.2.3
 - JAVA 11
 - Gradle Release 8.2
@@ -21,23 +21,18 @@ Plugins to Intellij IDE:
 
 ## Usage
 
-Make sure you have openjdk-11 installed.
+Make sure you have openjdk-11 installed on your SO.
 
-Open the project with IDEA 2024.1.2. or latest
+Open the project with IDEA 2024.2.3 or latest.
 
-Verify your Chrome web browser version and go to 
-[download the driver](https://chromedriver.chromium.org/downloads) 
-corresponding to your version and unzip in next project path:
+Make you sure using corretto-19.0.2 JDK in Project Structure -> Platform Settings -> SDKs.
 
+Install the plugins.
 
+Run the project from the Runner class in ``` src/test/java/com/co/demo/runners/SerenityLoginRunner.java ```,
+open the runner and press Shift+F10.
 
-" src/test/resources/driver/<chromedriver.exe> "
-
-Run the project from the RunnerTags class with Shift+F10.
-
-This project has 1 package.
-
-In "src/test/resources/features/mytest.feature" do you find one user 
+In ``` src/test/resources/features/serenityLogin.feature ``` do you find one user 
 history and four test cases in Gherkin language.
 
 I recommend you read them.
@@ -53,13 +48,12 @@ gradle clean test aggregate
 
 Watch the execution and in the end find the report in next project path:
 
-" target/site/serenity/index.html "
+``` /bPOM/target/index.html ```
 
 and open in web browser.
 
-You can watch all tests passed.  ✅✅✅✅ 
-
-
+You can watch all tests passed ✅✅ and more data about the tests, 
+like a time of executing; the average time to execution is 16 seconds.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -69,6 +63,8 @@ Please make sure to update tests as appropriate.
 ## Referals
 
 [Julian Mesa Channel](https://www.youtube.com/@JulianMesaAutomation/videos)
+
+[Reliquias del Software Channel](https://www.youtube.com/@reliquiasdelsoftware)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

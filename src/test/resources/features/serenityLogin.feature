@@ -8,7 +8,7 @@ Feature: Login on the website
       | admin | serenity |
     Then will validate the text on screen <message>
     Examples:
-      | message   |
+      | message |
       | Tablero |
 
   @UserStory2
