@@ -7,7 +7,7 @@ Examples of Automation with Serenity BDD Web
 This project was created in:
 
 - Windows 11
-- IntelliJ IDEA 2024.1.2
+- IntelliJ IDEA 2024.2.3
 - JAVA 11
 - Gradle Release 8.2
 - Serenity 3.9.8
@@ -48,7 +48,7 @@ the "Terminal" tab of the IntelliJ IDE.
 Run the following command
 
 ```
-gradle clean test aggregate -Dtags=@UserStory1
+gradle clean test aggregate
 ```
 
 Watch the execution and in the end find the report in next project path:
@@ -67,7 +67,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Referals
-[Curso de Screenplay](https://operacion.choucairtesting.com/academy/course/view.php?id=1318)
 
 [Julian Mesa Channel](https://www.youtube.com/@JulianMesaAutomation/videos)
 

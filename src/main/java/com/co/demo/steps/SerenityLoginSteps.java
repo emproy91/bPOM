@@ -8,6 +8,7 @@ import net.thucydides.core.annotations.Step;
 import static net.serenitybdd.core.Serenity.getDriver;
 
 public class SerenityLoginSteps {
+
     SerenityLoginPage loginPage = new SerenityLoginPage();
 
     @Step

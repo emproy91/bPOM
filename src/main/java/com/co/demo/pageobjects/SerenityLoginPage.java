@@ -10,9 +10,7 @@ public class SerenityLoginPage extends PageObject {
     private static By BTN_SUBMIT = By.xpath("//button[@id='LoginPanel0_LoginButton']");
 
 
-    public static By getTxtUser() {
-        return TXT_USER;
-    }
+    public static By getTxtUser() { return TXT_USER; }
 
     public static By getTxtPass() {
         return TXT_PASS;

@@ -22,6 +22,7 @@ public class SerenityLoginStepDefinitions {
 
     @When("attempts to log in")
     public void attemptsToLogIn(DataTable table) {
+
         loginSteps.login(UserLoombokData.setData(table).get(0));
     }
 

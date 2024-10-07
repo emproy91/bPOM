@@ -12,6 +12,8 @@ public class UserLoombokData {
 
     String user;
     String pass;
+    String company;
+    String phone;
 
     public static List<UserLoombokData> setData(DataTable table){
         List<UserLoombokData> data = new ArrayList<>();
@@ -22,11 +24,11 @@ public class UserLoombokData {
         return data;
     }
 
-    public String getUser() {
-        return user;
-    }
+    public String getUser() { return user; }
 
-    public String getPass() {
-        return pass;
-    }
+    public String getPass() { return pass; }
+
+    public String getCompany() { return company; }
+
+    public String getPhone() { return phone; }
 }
