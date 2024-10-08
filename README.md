@@ -79,7 +79,7 @@ gradle clean test aggregate
     3.13. The page closes at the request of the browser.
 
 
-    Note: if you want to repeat the test, I recommend manually accessing this URL and deleting the newly created carrier by clicking on its name and then on the trash can button (in a real case, dozens of carriers would be placed in a separate file to be imported by the project).
+    Note: if you want to repeat the test, I recommend manually accessing this URL https://demo.serenity.is/Northwind/Shipper and deleting the newly created carrier by clicking on its name and then on the trash can button or change name carrier in src/test/resources/features/serenityLogin.feature (in a real case, dozens of carriers would be placed in a separate file to be imported by the project).
 
 
 4. Watch the execution and in the end find the report in next project path: 
