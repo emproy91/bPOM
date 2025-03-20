@@ -9,7 +9,7 @@ Feature: Login on the website
     Then will validate the text on screen <message>
     Examples:
       | message |
-      | Tablero |
+      | Dashboard |
 
   @UserStory2
   Scenario Outline: testing the New Carrier module

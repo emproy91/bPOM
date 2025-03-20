@@ -9,17 +9,20 @@ Examples of Automation with Serenity BDD Web
 This project was created in:
 
 - Windows 10
-- IntelliJ IDEA 2024.2.3
+- IntelliJ IDEA 2024.2.3 
 - JAVA 11
 - Gradle Release 8.2
 - Serenity 3.9.8
 - Cucumber 3.9.8
 
 Plugins to Intellij IDE:
+
 * Cucumber for java
 * Gherkin
 * Sonarlint
 * Lombok
+
+You can also use VScode with the Pack for Java extension.
 
 ---
 
@@ -45,10 +48,10 @@ Plugins to Intellij IDE:
    ``` src/test/java/com/co/demo/runners/SerenityLoginRunner.java ```,
    open the runner and press Shift+F10.
 
-To run the test cases from the "Terminal" tab of the IntelliJ IDE run the following command.
+To run the test cases from the "Terminal" tab of the IntelliJ IDE run the following command in Bash CLI.
 
 ```
-gradle clean test aggregate
+./gradlew clean test aggregate
 ```
 3. Execution:
    
